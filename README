@@ -1,0 +1,17 @@
+Six degrees of Kevin Bacon
+Jessalyn Wang, jwang456
+
+--Description--
+In this assignment we implemented a graph that connects actors/actresses by movies they've worked on, and supports of the shortest path between actors.
+
+--Files--
+sixdegrees.cpp: implements the graph and handles path queries
+Makefile: creates an executable, sixdegrees.cpp
+README: this file
+
+--Usage--
+Run make, which will create an executable called sixdegrees
+The executable takes an input file, where each line is <ACTOR1> <ACTOR2>, and writes to an output file
+Run ./sixdegrees <INPUT FILE> <OUTPUT FILE>
+
+NOTE: the cleaned movie list is not in this repp this project is WIP
